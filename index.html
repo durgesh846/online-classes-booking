@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Class Booking</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<header>
+		<h1>Class Booking</h1>
+	</header>
+	<main>
+        <h1 class="heading">Available Classes </h1>
+        <div id="class-grid">
+            <div class="class-item">
+              <h3>Yoga</h3>
+              <p>Welcome to our yoga class! In this class, we will focus on building strength, flexibility, and mindfulness through a series of yoga poses and breathing exercises.
+                We will start with a brief centering exercise to bring our focus inward and set our intentions for the practice.</p>
+              
+            </div>
+            <div class="class-item">
+              <h3>English</h3>
+              <p>Welcome to our English class! In this class, we will focus on improving our language skills, including reading, writing, speaking, and listening.
+                We will start by exploring different literary genres, such as fiction, non-fiction, poetry, and drama. We will analyze the elements of these genres, including plot, character, setting, and theme.</p>
+            </div>
+            <div class="class-item">
+              <h3>Mathematics</h3>
+              <p>Welcome to our mathematics class! In this class, we will focus on developing our problem-solving and critical thinking skills through the study of mathematical concepts and their applications.
+                Throughout the class, we will work on solving problems and applying mathematical concepts to real-world situations.</p>
+              
+            </div>
+            <!-- Add more class items here as needed -->
+          </div>
+          <h1 class="timeslot" for="search">Check TimeSlots of the Classes.</h1>
+          
+		<form class="slotsearch">
+		
+			<input type="text" id="search" name="search" placeholder="Enter class name">
+			<input type="submit" value="Search">
+		</form>
+        
+		<div id="calendar">
+			<!-- class availability calendar will be displayed here -->
+		</div>
+    <h1 class="timeslot">Book Yor class Now</h1>
+        <form class="slotsearch">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date">
+          <label for="time">Time:</label>
+          <input type="time" id="time" name="time">
+          <input type="submit" value="Book">
+        </form>
+    
+	</main>
+	<footer>
+		<p class="footer">Class Booking &copy; 2023</p>
+	</footer>
+	<script src="index.js"></script>
+</body>
+</html>
